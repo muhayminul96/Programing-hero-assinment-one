@@ -9,7 +9,7 @@ h1 {
 }
 
 .gray-color {
-    color: gray;
+    color: #ee156e;
 }
 
 section {
@@ -39,14 +39,16 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-color: darkgreen;
+    background-color: #ff5959;
     padding: 7px;
     color: azure;
+    border-radius: 5px;
 }
 
 #top-bannar-img {
     width: 40%;
     margin-right: 10%;
+    border-radius: 50%;
 }
 
 .my-misson {
@@ -69,29 +71,59 @@ section {
 
 #misson {
     margin-left: 12%;
-    background-color: rgb(139, 190, 139);
+    background-color: #d1f9d6;
 
 
 }
 
 #visson {
-    background-color: lightgreen;
+    background-color: #eeccfc;
 }
 
 #goal {
-    background-color: lightslategray;
+    background-color: #c9fcee;
     margin-right: 5%;
 }
 
 .middle-part {
-    padding: 100px 10%;
+    padding: 50px 10%;
 }
 
 .one-therd-width {
-    width: 30%;
+    width: 35%;
+    padding: 0px 5%;
 }
 
 .two-therd-width {
-    width: 60%;
-    padding: 0px 10%;
+    width: 55%;
+    padding: 0px 5%;
+}
+
+footer {
+    text-align: center;
+    background-color: #00112d;
+    padding: 10px 0px;
+
+}
+
+footer h2 {
+    color: beige;
+}
+
+footer h2 span {
+    color: chocolate;
+}
+
+footer p {
+    color: azure;
+}
+
+.about-part {
+    width: 30%;
+    padding: 2%;
+
+}
+
+#about {
+    padding: 40px 10%;
 }
